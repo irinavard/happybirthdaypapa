@@ -1,0 +1,97 @@
+[
+    {
+      "id": 1,
+      "name": "Born in Kirovabad, May 17, 1967",
+      "year": 1967,
+      "lat": 40.71399,
+      "lng": 46.37154,
+      "city": "Kirovabad, ARMENIA",
+      "era": "childhood",
+      "description": "",
+      "photos": ["photos/youngarmen1.jpeg"]
+    },
+    {
+      "id": 2,
+      "name": "Georgia",
+      "year": 1985,
+      "lat": 41.6941,
+      "lng": 44.827,
+      "city": "Georgia",
+      "description": "Armen serving in the military",
+      "photos": ["photos/army2.jpeg"]
+    },
+    
+
+    {
+        "id": 3,
+        "name": "Kirovabad",
+        "year": 1996,
+        "lat": 40.71399,
+        "lng": 46.37154,
+        "city": "Kirovabad",
+        "description": "Papa meets his lovely wife, Angela",
+        "photos": ["12.27.2004.jpeg"]
+      },
+      {
+        "id": 4,
+        "name": "Wedding, June 5, 1999",
+        "year": 1999,
+        "lat": 40.18111,
+        "lng": 44.51361,
+        "city": "Yerevan",
+        "description": "Angela and Armen are married",
+        "photos": ["12.27.2004.jpeg"]
+      },
+      {
+        "id": 5,
+        "name": "Honeymoon",
+        "year": 1999,
+        "lat": 48.8575,
+        "lng": 2.3488,
+        "city": "Paris",
+        "description": "Mama and Papa go on their honeymoon in Paris",
+        "photos": ["12.27.2004.jpeg"]
+      },
+      {
+        "id": 6,
+        "name": "Armen's 59th Birthday",
+        "year": 2026,
+        "lat": 37.3688,
+        "lng": -122.0363,
+        "city": "Sunnyvale",
+        "description": "Papa celebrates his 59th birthday with his family",
+        "photos": ["12.27.2004.jpeg"]
+      },
+      {
+        "id": 7,
+        "name": "Trip to New York",
+        "year": 2026,
+        "lat": 40.7128,
+        "lng": -74.0060,
+        "city": "New York City",
+        "description": "Family trip to new york",
+        "photos": ["photos/6.11.16.JPG"]
+      },
+      {
+        "id": 8,
+        "name": "Armen's 57th Birthday",
+        "year": 2024,
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "city": "San Francisco",
+        "description": "Armen's 57th Birthday",
+        "photos": ["photos/5.17.24.jpeg"]
+      },
+      {
+        "id": 9,
+        "name": "Trip to Yerevan",
+        "year": 2023,
+        "lat": 40.1811,
+        "lng": 44.5136,
+        "city": "Yerevan",
+        "description": "Trip to Yerevan",
+        "photos": ["photos/yerevan23.jpeg", "photos/yerevan23_1.jpeg"]
+      }
+  ]
+
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Papa!</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>Happy Birthday Papa!</h1>
+
+    </div>
+  </header>
+
+  <main>
+    <div id="map-container">
+      <svg id="map"></svg>
+      <div id="tooltip"></div>
+    </div>
+
+    <div id="timeline">
+      <div id="timeline-track">
+        <div id="timeline-line"></div>
+        <div id="timeline-dots"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Memory Modal -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal">
+      <button id="modal-close">✕</button>
+      <div id="modal-year"></div>
+      <h2 id="modal-title"></h2>
+      <p id="modal-location-label"></p>
+      <div id="modal-photo-area">
+        <div id="photo-carousel">
+          <img id="modal-photo" src="" alt="memory photo" />
+          <div id="photo-nav" class="hidden">
+            <button id="prev-photo">‹</button>
+            <span id="photo-counter"></span>
+            <button id="next-photo">›</button>
+          </div>
+        </div>
+        <div id="no-photo">📷 Add a photo to <code>photos/</code></div>
+      </div>
+      <p id="modal-description"></p>
+      <blockquote id="modal-quote"></blockquote>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
